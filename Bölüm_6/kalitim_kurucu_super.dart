@@ -22,6 +22,7 @@ class Asker {
   }
 }
 
+// alt siniftan bir nesne urettigimizde ilk olarak ust sinifin constructori calisir.
 class Er extends Asker {
   // super kullanımı ile constructor tetikleme
   Er(String name, int age) : super(name, age) {
